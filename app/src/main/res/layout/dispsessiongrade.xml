@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:strokeWidth="5dp"
+        app:strokeColor="#fff"
+        app:cardElevation="20dp"
+        android:layout_alignRight="@id/hd"
+        android:background="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+
+        >
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reg"
+            android:background="@color/colorPrimary"
+            android:id="@+id/sesExit"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/hd"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="n:Sesion result"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:id="@+id/sesresultHead"
+                android:fontFamily="sans-serif-light"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="First Semester=3.5\n Second semester=2.5 \nTotal=3.5+2.5/2"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/sesResutl"
+                />
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
+

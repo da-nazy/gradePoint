@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/multiplesessionItem1"
+        android:title="Sessions Grade"
+        />
+    <item
+        android:id="@+id/multiplesessionItem2"
+        android:title="user profile"
+        />
+</menu>

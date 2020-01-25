@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="3dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        app:strokeColor="#000"
+        app:strokeWidth="3dp">
+
+        <ImageButton
+            android:id="@+id/addleveledit"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_more" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/addlevellevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingRight="5dp"
+                android:text="n LEVEL"
+                android:textColor="#fff"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/addlevelsession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="n SESSION"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="25dp"
+                app:strokeColor="#0B110B"
+                app:strokeWidth="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingTop="10dp"
+                        android:text="SEMESTER:"
+                        android:textColor="@color/colorPrimary"
+                        android:textFontWeight="20sp"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/addleveldelete"
+                            android:layout_width="30dp"
+                            android:layout_height="60dp"
+                            android:background="@android:color/transparent"
+                            android:padding="2dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/delete">
+
+                        </ImageButton>
+
+                        <TextView
+                            android:id="@+id/addlevelfirst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="2dp"
+                            android:text="1st,"
+                            android:textColor="@color/colorPrimary"
+                            android:textFontWeight="20sp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/addlevelsecond"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:text="2nd"
+                            android:textColor="@color/colorPrimary"
+                            android:textFontWeight="20sp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/addlevelnext"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@android:color/transparent"
+                            android:padding="2dp"
+                            android:layout_marginStart="2dp"
+                            android:scaleType="centerCrop"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/ten">
+
+                        </ImageButton>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

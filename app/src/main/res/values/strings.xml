@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gradePoint</string>
+    <string name="level_warning">Are you sure that you <br />want to delete this level?  \nThe two semesters under it will also be affected</string>
+</resources>
